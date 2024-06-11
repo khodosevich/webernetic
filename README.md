@@ -28,7 +28,7 @@
 1. Клонировать репозиторий:
     ```bash
     git clone https://github.com/khodosevich/webernetic.git
-    cd ваш_репозиторий
+    cd webernetic
     ```
 
 2. Установить зависимости:

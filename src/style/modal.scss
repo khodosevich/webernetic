@@ -91,6 +91,10 @@
     gap: 5px;
   }
 
+  &__inputs input::placeholder {
+    color: #1F4284;
+  }
+
   &__login,
   &__registration {
     width: 100%;
