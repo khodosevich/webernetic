@@ -91,6 +91,11 @@
      background-color: #244C98;
      color: #fff;
      cursor: pointer;
+     transition: all .3s;
+
+     &:hover {
+       background-color: #1d438a;
+     }
 
      @media (max-width: 767px) {
        & {
