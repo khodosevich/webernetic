@@ -1,0 +1,78 @@
+.modal {
+  width: 500px;
+  height: 575px;
+  background: #F0F4FC;
+
+  &__content {
+    padding: 24px;
+  }
+
+  &__close {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #323232;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 5px;
+  }
+
+  &__input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #D7E2F6;
+    color: #1F4284;
+  }
+
+  &__check {
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;
+  }
+
+  &__check-title {
+    font-size: 18px;
+    color: #323232;
+  }
+
+  &__recover {
+    font-size: 20px;
+    color: #244C98;
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 5px;
+  }
+
+  &__login,
+  &__registration {
+    width: 100%;
+    text-align: center;
+    padding-block: 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  &__login {
+    background: #244C98;
+    color: #fff;
+  }
+
+  &__registration {
+    background: transparent;
+    border: 1px #244C98 solid;
+    color: #244C98;
+  }
+}

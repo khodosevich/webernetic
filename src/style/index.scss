@@ -1,5 +1,8 @@
 @import "./reset";
+@import "./shared";
+@import "./main";
+@import "./modal";
 
 body {
-  margin: 0;
+  font-family: "Manrope", sans-serif;
 }

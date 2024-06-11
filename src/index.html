@@ -9,6 +9,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="landing">
+        <div class="container landing__container">
+            <div class="landing__info bg-primary">
+                <h1 class="landing__title">
+                    Демо-версия
+                </h1>
+                <p class="landing__subtitle">
+                    За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить
+                </p>
+                <div id="contact" class="landing__contact">
+                    <a class="landing__link">
+                        Попробовать бесплатно
+                    </a>
+                    <img class="landing__icon" src="./assets/arrow.png" alt="">
+                </div>
+            </div>
+            <div class="landing__preview bg-primary bg-secondary">
+                <img class="landing__img" src="./assets/computer.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal__content">
+            <div class="modal__close">
+                <img src="./assets/close.svg" alt="">
+            </div>
+            <div class="modal__title">
+                Войти в систему
+            </div>
+            <div class="modal__inputs">
+                <input type="text" placeholder="Email/Телефон" class="modal__input">
+                <input type="text" placeholder="Пароль" class="modal__input">
+            </div>
+            <div class="modal__check">
+                <input type="checkbox">
+                <div class="modal__check-title">
+                    Запомнить пароль
+                </div>
+            </div>
+            <div class="modal__recover">
+                Восстановить
+            </div>
+            <div class="modal__btns">
+                <button class="modal__login">
+                    Войти
+                </button>
+                <button class="modal__registration">
+                    Зарегистрироваться
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
