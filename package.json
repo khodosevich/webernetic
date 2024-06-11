@@ -1,11 +1,14 @@
 {
+  "homepage" : "https://khodosevich.github.io/webernetic",
   "name": "webernetic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +17,7 @@
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "sass": "^1.77.4",
     "sass-loader": "^14.2.1",
